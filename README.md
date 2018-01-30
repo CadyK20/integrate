@@ -28,22 +28,18 @@
 </div>
 
 <div class="app-topbar">
+  <div class="app-button left" data-back>Profile</div>
   <div class="app-title">Integrate</div>
+  <div class="app-button right">Messages</div>
 </div>
-
 <div class="app-button">My button</div>
-
-<div class="app-topbar">
-  <div class="app-button left" data-back>Feed</div>
-  <div class="app-title">Integrate</div>
-  <div class="app-button right">Profile</div>
-</div>
 
 <div class="app-page" data-page="home">
   <div class="app-topbar"></div>
   <div class="app-content"></div>
 </div>
 
+ 
 /* in your javascript */
 App.controller('home', function (page) {
     .find('.app-button')
