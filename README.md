@@ -32,7 +32,6 @@
   <div class="app-title">Integrate</div>
   <div class="app-button right">Messages</div>
 </div>
-<div class="app-button">My button</div>
 
 <div class="app-page" data-page="home">
   <div class="app-topbar"></div>
